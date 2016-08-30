@@ -37,7 +37,7 @@ export default class Demo extends Component {
       <div>
         <Song
           playing={this.state.playing}
-          tempo={90}
+          tempo={120}
         >
           <Analyser onAudioProcess={this.handleAudioProcess}>
             <Sequencer
